@@ -1,0 +1,91 @@
+{
+  "menu": {
+    "home": "HomePage",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "browseProduct": "Browse Product",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "joinus": "Join Us",
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "createAccount": "Create Account",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "passwordConfirmation": "Password Confirmation",
+    "emailConfirmation": "Email Confirmation",
+    "otp": "OTP",
+    "otpSent": "OTP Sent Successfully",
+    "otpfailed": "OTP could not be sent",
+    "invalidOtp": "Invalid OTP, Try Again",
+    "enterEmail": "Enter Valid Email",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "otpVerified": "OTP Verified",
+    "signupSuccess": "Sign Up Success",
+    "dashboard": "Dashboard",
+    "loginSubtext": "Sign in to your account to access your products/services",
+    "subText": "Create your account to access products, services, orders, memberships, and more.",
+    "setting": "Setting",
+    "userExists": "Email is already in use",
+    "loginWithPassword": "Login With Password",
+    "resendOtp": "Resend OTP",
+    "loginWithOTP": "Login With OTP",
+    "goToSignup": "Sign Up",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "resetPasswordSuccess": " Password Reset Successfully",
+    "resetPasswordFailed": " Password Reset Failed",
+    "selectCrop": "Select a crop",
+    "instruction": "Select Only 8 Crops",
+    "horticulture": "Horticulture Crops",
+    "vegetable": "Vegetable Crops",
+    "FieldCrops": "Field Crops",
+    "OilSeedCrops": "Oil Seed Crops",
+    "Address": "Address",
+    "Loading": "Loading..."
+  },
+  "homepage": {
+    "hero": {
+      "title": "Uniting Farmers, Corporates, and Crop Experts",
+      "subtitle": "Harvesting Possibilities",
+      "description": "Connecting Farmers, Merchants, and Crop Experts for a thriving future in agriculture.",
+      "exploreButton": "Discover More",
+      "FirstInput": "Search Your Crop Here",
+      "Schemes": "Schemes",
+      "Product": "Product",
+      "Sale": "Sale",
+      "Care": "Crop Care",
+      "Protection": "Protection",
+      "Mandi": "Mandi Price"
+    },
+    "features": {
+      "farmers": {
+        "title": "Maximize Your Harvest and Profits",
+        "description": "Unlock higher yields and connect with corporates for profitable sales."
+      },
+      "corporates": {
+        "title": "Direct Sourcing from Farmers",
+        "description": "Source agricultural products directly from farmers, ensuring quality and transparency."
+      },
+      "experts": {
+        "title": "Earn by Assisting Farmers Online",
+        "description": "Monetize your expertise by helping farmers with their crop management challenges."
+      }
+    },
+    "cta": {
+      "joinUs": "Join Us Today",
+      "learnMore": "Learn More"
+    }
+  }
+}
