@@ -22,6 +22,7 @@ import UpcomingWeather from '../Component/UpcomingWeather';
 import ProductsDetail from '../Component/ProductsDetail';
 import Checkout from '../Component/products/Checkout';
 import Notification from '../Utilities/Notification/Notification';
+import Diary from '../Screens/DrawerScreen/Farm Diary/Diary';
 
 const Stack = createNativeStackNavigator();
 export default function Navigation() {
@@ -51,6 +52,7 @@ export default function Navigation() {
         <Stack.Screen name="ProductDetail" component={ProductsDetail} />
         <Stack.Screen name="CheckOut" component={Checkout} />
         <Stack.Screen name="Notification" component={Notification} />
+        <Stack.Screen name="FarmDiary" component={Diary} />
         
       </Stack.Navigator>
     </NavigationContainer>

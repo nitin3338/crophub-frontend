@@ -5,10 +5,12 @@ import Products from '../Screens/TabScreen/Products';
 import Services from '../Screens/TabScreen/Services';
 import Settings from '../Screens/TabScreen/Settings';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import Feather from 'react-native-vector-icons/Feather';
 import styles, {darkStyles, lightStyles, Colors} from '../Styles';
 import {View, Text} from 'react-native';
 import {useDarkModeContext} from '../context/darkMode';
 import Chat from '../Screens/DrawerScreen/Chat';
+import FertilizerCalculator from '../Component/fertiCalculator/FertilizerCalculator';
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => {
@@ -71,6 +73,23 @@ const TabNavigator = () => {
                 
               </Text>
               <Text style={[currentStyle.bgText, styles.MenuLabel]}>Products</Text>
+            </View>
+          ),
+        }}
+      />
+       <Tab.Screen
+        name="Fertilizer Calculator"
+        component={FertilizerCalculator}
+        options={{
+          tabBarIcon: ({focused}) => (
+            <View style={styles.MenuItem}>
+              <Text
+                style={[
+                   currentStyle.bgText]}>
+                <Feather name="plus-circle" size={40} />
+                
+              </Text>
+              
             </View>
           ),
         }}

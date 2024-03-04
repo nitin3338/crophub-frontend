@@ -36,7 +36,6 @@ const BookConsultation = ({isVisible, onClose}) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [date, setDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(null);
-  const [selectedTime, setSelectedTime] = useState(null);
   const [selectedDateString, setSelectedDateString] = useState('');
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);

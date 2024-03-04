@@ -137,3 +137,9 @@ export const Items = [
     ],
   },
 ];
+
+export const CropFertilizer =[
+  {
+    
+  }
+]

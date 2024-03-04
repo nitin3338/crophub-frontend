@@ -222,6 +222,15 @@ const CustomDrawer = ({onClose}) => {
 
           <TouchableOpacity
             style={localstyles.drawerItem}
+            onPress={() => navigation.navigate('FarmDiary')}>
+               <Text style={[currentStyle.bgText]}>
+              <Ionicons name="book-outline" size={22}/>
+              </Text>
+            <Text style={[localstyles.drawerItemText,currentStyle.bgText]}>Diary</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={localstyles.drawerItem}
             onPress={() => navigation.navigate('Invoices')}>
                <Text style={[currentStyle.bgText]}>
               <Ionicons name="documents-outline" size={22}/>

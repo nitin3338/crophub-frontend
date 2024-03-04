@@ -68,7 +68,7 @@ export default function Login({navigation}) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({userData}),
       });
-      console.log(response)
+      //console.log(response)
 
       if (response.status === 200) {
         showToast('Otp Sent','success');

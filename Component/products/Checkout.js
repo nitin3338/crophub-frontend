@@ -14,7 +14,6 @@ import styles, {lightStyles, darkStyles, Colors} from '../../Styles';
 import {useDarkModeContext} from '../../context/darkMode';
 import {useNavigation} from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useDispatch, useSelector} from 'react-redux';
 import {selectUser, setUser} from '../../redux/slices/userSlice';
 import {API_PATH} from '../../env';

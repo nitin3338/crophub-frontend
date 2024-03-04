@@ -205,6 +205,12 @@ const styles = StyleSheet.create({
     textTransform: 'capitalize',
     lineHeight: 33,
   },
+  dottedDivider: {
+    borderBottomColor: Colors.grey, // Change color as needed
+    borderBottomWidth: 1,
+    borderStyle: 'dotted',
+    marginTop: 10, // Adjust margin as needed
+  },
   normalText: {
     fontSize: 18,
     fontWeight: '400',
